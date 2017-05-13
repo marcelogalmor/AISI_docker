@@ -1,11 +1,10 @@
-# A sample Docker workflow with Node.js, Redis and NGiNX
 
-[![Circle CI](https://circleci.com/gh/msanand/docker-workflow/tree/master.svg?style=shield)](https://circleci.com/gh/msanand/docker-workflow/tree/master)
+Docker workflow example with Nginx, Node.js and Redis:
+-----------------------------------------------------
 
-For a detailed explanation of the workflow used in this repository, refer to [this post from blog](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/):
-[http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/](http://anandmanisankar.com/posts/docker-container-nginx-node-redis-example/)
+To start the application, visit counter in your browser, you must execute the following instruction:
 
-For a detailed overview of Containers and Docker, refer to [this post from blog](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/):
-[http://anandmanisankar.com/posts/container-docker-PaaS-microservices/](http://anandmanisankar.com/posts/container-docker-PaaS-microservices/)
+	docker-compose up
 
+And then, in your favorite browser, navigate to http: // localhost and you'll see that the hit counter is working!
 
