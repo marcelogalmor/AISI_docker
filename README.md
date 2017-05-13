@@ -6,5 +6,5 @@ To start the application, visit counter in your browser, you must execute the fo
 
 	docker-compose up
 
-And then, in your favorite browser, navigate to http: // localhost and you'll see that the hit counter is working!
+And then, in your favorite browser, navigate to http://localhost and you'll see that the hit counter is working!
 
