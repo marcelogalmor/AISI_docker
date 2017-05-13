@@ -1,9 +1,6 @@
 # Set the base image to Ubuntu
 FROM    ubuntu:trusty
 
-# File Author / Maintainer
-MAINTAINER Anand Mani Sankar
-
 # Install Node.js and other dependencies
 RUN apt-get update && \
     apt-get -y install curl && \
